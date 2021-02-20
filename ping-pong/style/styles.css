@@ -1,0 +1,61 @@
+* {
+   box-sizing: border-box;
+}
+
+h1 {
+   font-size: 40px;
+   text-align: center;
+}
+
+h1>span {
+   text-decoration: underline;
+}
+
+body {
+   background-color:wheat;
+   font-size: 30px;
+   padding-top: 10px;
+   margin: 0px;
+}
+
+#ping-pong {
+   width: 100px;
+   height: 100px;
+   background-color: tomato;
+   border-radius: 50%;
+   border: 2px solid black;
+   box-shadow: 0 0 10px 5px white;
+   margin-bottom: 40px;
+   position: relative;
+   right: 0px;
+   z-index: 2;
+}
+
+#toPingButton {
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 0 0 10px 5px white  ;
+   margin: 0px auto;
+}
+#toPingButton:focus {
+   outline: none;
+}
+
+.buttons {
+   text-align: center;
+}
+
+.game {
+   position: relative;
+}
+
+.target {
+   position: absolute;
+   top: 0px;
+   width: 100px;
+   height: 100px;
+   margin: 0 45%;
+   border-radius: 50%;
+   background-color: green;
+   z-index: 0;
+}
